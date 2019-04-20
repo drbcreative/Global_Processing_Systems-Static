@@ -1,0 +1,28 @@
+Font Primary - Open Sans
+Font Secondary - Lato
+
+Navbar:
+  Font Secondary, 15, Regular
+
+Hero Lead:
+  Font Primary, 20, Light
+
+H1:
+  Font Secondary, 50, Light
+
+h2:
+  Font Secondary, 50, Light
+
+h3: 
+  Font Primary, 30 Light
+
+h4, h5: Undefined
+
+Body Copy:
+  Font Primary, 16, Light
+
+Learn More Btn:
+  Font Primary, 16, Bold
+
+Footer Headers:
+  Font Secondary, 30, Light

@@ -1,0 +1,300 @@
+/* -------------------------------------------------------------------------- */
+/* SECTION STYLES */
+/* -------------------------------------------------------------------------- */
+.containerish {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: auto;
+  padding: 0;
+}
+section {
+  overflow: hidden;
+}
+/* -------------------------------------------------------------------------- */
+/* HERO SECTION */
+/* -------------------------------------------------------------------------- */
+.hero {
+  .slide {
+    background: $color-main;
+    padding: 40px 20px;
+    height: 50vh;
+
+    .containerish {
+      display: grid;
+    }
+  }
+}
+/* -------------------------------------------------------------------------- */
+/* LOCATIONS SECTION */
+/* -------------------------------------------------------------------------- */
+.locations {
+  padding: 40px 20px;
+  background: url("../img/locations-bg@2x.jpg") center / cover;
+  min-height: 100px;
+  .containerish {
+    display: grid;
+    align-items: center;
+
+    .loc {
+      background: rgba(#fff, 0.8);
+      width: 100%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 50px 1fr;
+      // grid-gap: 1rem;
+
+      .loc-map {
+        grid-row: 1 / 3;
+        grid-column: 1 / 2;
+        z-index: 10;
+        padding: 0.2rem 1rem;
+        align-self: center;
+        padding: 1rem;
+
+        img {
+          border: 1px solid $color-white;
+        }
+      }
+
+      .loc-title {
+        font-family: $font-secondary;
+        font-size: 120% !important;
+        font-weight: 300;
+        // margin: 0;
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+        align-self: center;
+      }
+      .loc-info {
+        grid-row: 2;
+        grid-column: 2 / 3;
+        align-self: center;
+        padding: 0.3rem 0;
+        .loc-link {
+          font-family: $font-primary;
+          font-size: 12px !important;
+          line-height: 0 !important;
+          font-weight: 300;
+          color: $color-dark-accent;
+          margin: 0;
+
+          &:hover {
+            color: $color-main;
+            text-decoration: none;
+          }
+        }
+        .loc-link:nth-child(3) {
+          font-weight: 700;
+        }
+      }
+
+      .loc-bottom {
+        background: rgba($color-dark-accent, 0.09);
+        grid-row: 2;
+        grid-column: 1 / -1;
+      }
+    }
+    .loc:nth-child(1) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+/* -------------------------------------------------------------------------- */
+/* COOLSCULPTING SECTION */
+/* -------------------------------------------------------------------------- */
+.coolsculpting {
+  // background: #e8e6f4;
+  background: url("../img/coolsculpting-bg@2x.jpg") center / cover;
+  padding: 40px 20px;
+  .containerish {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    .section-info {
+      max-width: 780px;
+      text-align: center;
+    }
+  }
+}
+/* -------------------------------------------------------------------------- */
+/* SEARCH SECTION */
+/* -------------------------------------------------------------------------- */
+.search {
+  background: $color-white;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+
+    .form-control {
+      border-radius: 0;
+      margin-bottom: 0.5rem;
+    }
+
+    .form-control:not(button) {
+      border: 1px solid #ededed;
+    }
+
+    ::placeholder {
+      color: #3e3a42;
+      font-family: $font-primary;
+      font-size: 15px;
+    }
+  }
+}
+/* -------------------------------------------------------------------------- */
+/* ABOUT US */
+/* -------------------------------------------------------------------------- */
+.aboutus {
+  padding: 40px 20px;
+  background-image: radial-gradient(#fff, #f0f0ed);
+  min-height: 200px;
+
+  .containerish {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    img {
+      // border: 1px solid #707070;
+      margin-bottom: 2rem;
+    }
+
+    .section-info {
+      max-width: 780px;
+      text-align: center;
+    }
+  }
+}
+/* -------------------------------------------------------------------------- */
+/* NEWSLETTER SECTION */
+/* -------------------------------------------------------------------------- */
+.newsletter {
+  background: $color-dark-accent;
+  min-height: 200px;
+  align-items: center;
+  .containerish {
+    padding: 40px 20px;
+    display: grid;
+    h3,
+    h2,
+    p {
+      text-align: center;
+    }
+    p {
+      margin-top: 0.5rem;
+    }
+    .form-control {
+      margin-bottom: 0.5rem;
+      border-radius: 0;
+    }
+    .form-control:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+/* -------------------------------------------------------------------------- */
+/* BOTOX AND FILLERS SECTION */
+/* -------------------------------------------------------------------------- */
+.botox-fillers {
+  padding: 40px 20px;
+  background: url("../img/botox-fillers-bg@2x.jpg") center / cover;
+  min-height: 200px;
+
+  .containerish {
+    display: grid;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* PHOTOFACIAL SECTION */
+/* -------------------------------------------------------------------------- */
+.photofacial {
+  height: auto;
+  .section-img {
+    background-image: radial-gradient(#e8e6f4, #8b8b8b);
+    min-height: 300px;
+  }
+  .section-info {
+    background: url("../img/coolsculpting-bg@2x.jpg") center / cover;
+    text-align: center;
+    padding: 40px 20px;
+
+    .containerish {
+      max-width: 780px;
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* EVENT */
+/* -------------------------------------------------------------------------- */
+.event {
+  .containerish {
+    padding: 40px 20px;
+    background: url("../img/event-bg@2x.jpg") center / cover;
+    display: grid;
+
+    img {
+      margin-bottom: 2rem;
+    }
+  }
+}
+/* -------------------------------------------------------------------------- */
+/* LHR ULTHERAPY */
+/* -------------------------------------------------------------------------- */
+.lhr-ultherapy {
+  background-image: radial-gradient(#9f9ead, #787787);
+  min-height: 75vh;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+
+    .lhr-img,
+    .ultherapy-img {
+      margin-bottom: 2rem;
+    }
+
+    .section-info:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+}
+/* -------------------------------------------------------------------------- */
+/* APPOINTMENTS SECTION */
+/* -------------------------------------------------------------------------- */
+.appointments {
+  background: url("../img/appointment-bg@2x.jpg") center / cover;
+  min-height: 400px;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .containerish {
+    background: rgba($color-white, 0.7);
+    padding: 2rem;
+  }
+
+  h2,
+  p {
+    margin: 0 !important;
+  }
+  p {
+    margin-top: 0.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .form-control {
+    border-radius: 0;
+  }
+  input {
+    height: 43px;
+  }
+}
