@@ -37,7 +37,7 @@
   .containerish {
     max-width: 95% !important;
     padding: 40px 20px;
-    height: 75vh;
+    min-height: 75vh;
     background: url("../../img/applyforanaccount-img@2x.jpg") center left /
       cover;
     display: grid;
@@ -45,5 +45,50 @@
   }
 }
 /* AFFILIATE **************************************************** */
+.affiliate {
+  .containerish {
+    display: grid;
+
+    .section-info {
+      background: url("../../img/affiliate-bg@2x.jpg") center / cover;
+      padding: 40px 20px;
+    }
+
+    .section-img {
+      background: url("../../img/affiliate-img@2x.jpg") center / cover;
+      height: 500px;
+    }
+  }
+}
 /* CC TERMINALS ************************************************* */
+.cardterminals {
+  .containerish {
+    display: grid;
+
+    .section-info {
+      // background: url("../../img/affiliate-bg@2x.jpg") center / cover;
+      padding: 40px 20px;
+    }
+
+    .section-img {
+      background: url("../../img/ccterminals-img@2x.jpg") center / cover;
+      height: 500px;
+    }
+  }
+}
 /* BIZ CAPITAL ************************************************** */
+.buisnesscap {
+  .containerish {
+    display: grid;
+
+    .section-info {
+      background: url("../../img/biscapital-bg@2x.jpg") center / cover;
+      padding: 40px 20px;
+    }
+
+    .section-img {
+      background: url("../../img/buscapital-img@2x.jpg") center / cover;
+      height: 500px;
+    }
+  }
+}

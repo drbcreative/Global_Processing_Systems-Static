@@ -137,8 +137,73 @@
     }
   }
   /* AFFILIATE **************************************************** */
+  .affiliate {
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+
+      .section-info {
+        background: url("../../img/affiliate-bg@2x.jpg") center / cover;
+        padding: 40px 20px;
+        height: 500px;
+        grid: 2 / 3;
+        grid-row: 1;
+      }
+
+      .section-img {
+        background: url("../../img/affiliate-img@2x.jpg") center / cover;
+        height: 500px;
+        grid-column: 1 / 2;
+        grid-row: 1;
+      }
+    }
+  }
   /* CC TERMINALS ************************************************* */
+  .cardterminals {
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+
+      .section-info {
+        padding: 40px 20px;
+        height: 500px;
+        grid: 1 / 2;
+        grid-row: 1;
+      }
+
+      .section-img {
+        background: url("../../img/ccterminals-img@2x.jpg") center / cover;
+        height: 500px;
+        grid-column: 2 / 3;
+        grid-row: 1;
+      }
+    }
+  }
   /* BIZ CAPITAL ************************************************** */
+  .buisnesscap {
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+
+      .section-info {
+        background: url("../../img/buisness-cap-bg@2x.jpg") center / cover;
+        padding: 40px 20px;
+        height: 500px;
+        grid: 2 / 3;
+        grid-row: 1;
+      }
+
+      .section-img {
+        background: url("../../img/buscapital-img@2x.jpg") center / cover;
+        height: 500px;
+        grid-column: 1 / 2;
+        grid-row: 1;
+      }
+    }
+  }
   /* FOOTER ******************************************************* */
 }
 
@@ -182,8 +247,88 @@
     }
   }
   /* AFFILIATE **************************************************** */
+  .affiliate {
+    .containerish {
+      max-width: 100% !important;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      align-items: center;
+
+      .section-info {
+        background: url("../../img/affiliate-bg@2x.jpg") center / cover;
+        padding: 40px 20px;
+        height: 600px;
+        grid: 2 / 3;
+        grid-row: 1;
+        padding: 0.5rem 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .section-img {
+        background: url("../../img/affiliate-img@2x.jpg") center / cover;
+        height: 600px;
+        grid-column: 1 / 2;
+        grid-row: 1;
+      }
+    }
+  }
   /* CC TERMINALS ************************************************* */
+  .cardterminals {
+    .containerish {
+      max-width: 100% !important;
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      align-items: center;
+
+      .section-info {
+        padding: 40px 20px;
+        height: 600px;
+        grid: 1 / 2;
+        grid-row: 1;
+        padding: 0.5rem 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .section-img {
+        background: url("../../img/ccterminals-img@2x.jpg") center / cover;
+        height: 600px;
+        grid-column: 2 / 3;
+        grid-row: 1;
+      }
+    }
+  }
   /* BIZ CAPITAL ************************************************** */
+  .buisnesscap {
+    .containerish {
+      max-width: 100% !important;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      align-items: center;
+
+      .section-info {
+        background: url("../../img/buisness-cap-bg@2x.jpg") center / cover;
+        padding: 40px 20px;
+        height: 600px;
+        grid: 2 / 3;
+        grid-row: 1;
+        padding: 0.5rem 4rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .section-img {
+        background: url("../../img/buscapital-img@2x.jpg") center / cover;
+        height: 600px;
+        grid-column: 1 / 2;
+        grid-row: 1;
+      }
+    }
+  }
   /* FOOTER ******************************************************* */
 }
 
@@ -206,8 +351,29 @@
     }
   }
   /* AFFILIATE **************************************************** */
+  .affiliate {
+    .containerish {
+      .section-info {
+        padding: 0.5rem 6rem;
+      }
+    }
+  }
   /* CC TERMINALS ************************************************* */
+  .cardterminals {
+    .containerish {
+      .section-info {
+        padding: 0.5rem 6rem;
+      }
+    }
+  }
   /* BIZ CAPITAL ************************************************** */
+  .buisnesscap {
+    .containerish {
+      .section-info {
+        padding: 0.5rem 6rem;
+      }
+    }
+  }
   /* FOOTER ******************************************************* */
 }
 
@@ -220,7 +386,40 @@
   /* HERO ********************************************************* */
   /* ACCOUNT ****************************************************** */
   /* AFFILIATE **************************************************** */
+  .affiliate {
+    .containerish {
+      .section-info {
+        padding: 0.5rem 8rem;
+        height: 800px;
+      }
+      .section-img {
+        height: 800px;
+      }
+    }
+  }
   /* CC TERMINALS ************************************************* */
+  .cardterminals {
+    .containerish {
+      .section-info {
+        padding: 0.5rem 8rem;
+        height: 800px;
+      }
+      .section-img {
+        height: 800px;
+      }
+    }
+  }
   /* BIZ CAPITAL ************************************************** */
+  .buisnesscap {
+    .containerish {
+      .section-info {
+        padding: 0.5rem 8rem;
+        height: 800px;
+      }
+      .section-img {
+        height: 800px;
+      }
+    }
+  }
   /* FOOTER ******************************************************* */
 }
