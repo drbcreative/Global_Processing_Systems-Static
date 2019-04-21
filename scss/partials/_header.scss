@@ -86,3 +86,50 @@ header {
 /* -------------------------------------------------------------------------- */
 /* NAVBAR */
 /* -------------------------------------------------------------------------- */
+/* menu toggle */
+.toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+
+  img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  #nav-toggle {
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
+/* nav bar and menu */
+.nav-container {
+  display: grid;
+  .desktop-logo {
+    display: none;
+  }
+  .nav-menu {
+    display: none;
+    // flex-direction: column;
+    padding-top: 1rem;
+    // background: red;
+
+    .menu-link {
+      padding: 0.5rem 1rem;
+      color: $color-dark-accent;
+      text-decoration: none;
+      font-family: $font-primary;
+      font-size: 15px;
+
+      &:hover {
+        color: $color-white;
+        background: rgba(lighten($color-main, 20), 1);
+      }
+    }
+    &.show {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
