@@ -24,6 +24,23 @@
   /* TOPBAR ******************************************************* */
   /* NAVBAR ******************************************************* */
   /* HERO ********************************************************* */
+  .hero {
+    &::before {
+      background: transparent;
+    }
+    .containerish {
+      z-index: 10;
+      height: inherit;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+
+      .section-info {
+        grid-row: 2;
+        grid-column: 2 / 3;
+      }
+    }
+  }
   /* ACCOUNT ****************************************************** */
   /* AFFILIATE **************************************************** */
   /* CC TERMINALS ************************************************* */
@@ -45,13 +62,20 @@
   .dropdown:hover > .dropdown-menu {
     display: block;
   }
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 90;
+  }
   /* TOPBAR ******************************************************* */
   .topbar {
     .containerish {
       display: grid;
       grid-template-rows: auto;
       grid-template-columns: 1fr 1fr;
-      padding: 0.2rem 0.5rem;
+      padding: 0.2rem 1rem;
 
       .col-left {
         grid-row: 1;
@@ -89,6 +113,24 @@
   /* TOPBAR ******************************************************* */
   /* NAVBAR ******************************************************* */
   /* HERO ********************************************************* */
+  .hero {
+    &::before {
+      background: transparent;
+    }
+    .containerish {
+      z-index: 10;
+      height: inherit;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+
+      .section-info {
+        grid-row: 2;
+        grid-column: 2 / 3;
+        padding: 0.5rem 2rem;
+      }
+    }
+  }
   /* ACCOUNT ****************************************************** */
   /* AFFILIATE **************************************************** */
   /* CC TERMINALS ************************************************* */
