@@ -30,6 +30,20 @@
   }
 }
 /* ACCOUNT ****************************************************** */
+.account {
+  background: #fff;
+  padding: 5% 0;
+
+  .containerish {
+    max-width: 95% !important;
+    padding: 40px 20px;
+    height: 75vh;
+    background: url("../../img/applyforanaccount-img@2x.jpg") center left /
+      cover;
+    display: grid;
+    align-items: center;
+  }
+}
 /* AFFILIATE **************************************************** */
 /* CC TERMINALS ************************************************* */
 /* BIZ CAPITAL ************************************************** */

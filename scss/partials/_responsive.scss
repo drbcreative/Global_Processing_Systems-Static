@@ -42,6 +42,24 @@
     }
   }
   /* ACCOUNT ****************************************************** */
+  .account {
+    .containerish {
+      max-width: 95% !important;
+      padding: 40px 20px;
+      height: 75vh;
+      background: url("../../img/applyforanaccount-img@2x.jpg") center left /
+        cover;
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: 1fr 2fr;
+      align-items: center;
+
+      .section-info {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+      }
+    }
+  }
   /* AFFILIATE **************************************************** */
   /* CC TERMINALS ************************************************* */
   /* BIZ CAPITAL ************************************************** */
@@ -100,6 +118,24 @@
   /* NAVBAR ******************************************************* */
   /* HERO ********************************************************* */
   /* ACCOUNT ****************************************************** */
+  .account {
+    .containerish {
+      // max-width: 95% !important;
+      // padding: 40px 20px;
+      // height: 75vh;
+      background: url("../../img/applyforanaccount-img@2x.jpg") center center /
+        cover;
+      // display: grid;
+      // grid-template-columns: 2fr 1fr;
+      // grid-template-rows: 1fr 2fr;
+      // align-items: center;
+
+      .section-info {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+      }
+    }
+  }
   /* AFFILIATE **************************************************** */
   /* CC TERMINALS ************************************************* */
   /* BIZ CAPITAL ************************************************** */
@@ -132,6 +168,19 @@
     }
   }
   /* ACCOUNT ****************************************************** */
+  .account {
+    padding: 3% 0;
+    .containerish {
+      height: 665px;
+      background: url("../../img/applyforanaccount-img@2x.jpg") center center /
+        cover;
+      grid-template-columns: 1.5fr 1fr;
+
+      .section-info {
+        padding: 0.5rem 2rem;
+      }
+    }
+  }
   /* AFFILIATE **************************************************** */
   /* CC TERMINALS ************************************************* */
   /* BIZ CAPITAL ************************************************** */
@@ -146,6 +195,16 @@
   /* NAVBAR ******************************************************* */
   /* HERO ********************************************************* */
   /* ACCOUNT ****************************************************** */
+  .account {
+    padding: 3% 0;
+    .containerish {
+      grid-template-columns: 1fr 1fr;
+
+      .section-info {
+        padding: 0.5rem 2rem;
+      }
+    }
+  }
   /* AFFILIATE **************************************************** */
   /* CC TERMINALS ************************************************* */
   /* BIZ CAPITAL ************************************************** */
