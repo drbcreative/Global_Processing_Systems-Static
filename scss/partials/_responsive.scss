@@ -47,8 +47,7 @@
       max-width: 95% !important;
       padding: 40px 20px;
       height: 75vh;
-      background: url("../img/applyforanaccount-img@2x.jpg") center left /
-        cover;
+      background: url("../img/applyforanaccount-img@2x.jpg") center left / cover;
       display: grid;
       grid-template-columns: 2fr 1fr;
       grid-template-rows: 1fr 2fr;
@@ -101,9 +100,6 @@
     width: 225px;
   }
 
-  .dropdown:hover > .dropdown-menu {
-    display: block;
-  }
   header {
     position: absolute;
     top: 0;
@@ -245,6 +241,49 @@
 /* EXTRA LARGE BREAKPOINT (Large Desktops 1200px and up) */
 /* -------------------------------------------------------------------------- */
 @media screen and (min-width: 1200px) {
+  header {
+    .navbar {
+      background: rgba($color-white, 0.7);
+      padding: 0;
+      .navbar-brand {
+        background: white;
+        max-width: 250px;
+        height: 100%;
+        padding: 1rem;
+        display: block;
+
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+      .navbar-nav {
+        .nav-link {
+          color: $color-main;
+
+          &:hover {
+            columns: $color-dark-accent;
+          }
+        }
+        .dropdown-menu {
+          border: none;
+
+          .dropdown-item {
+            color: $color-main;
+
+            &:hover {
+              color: $color-dark-accent;
+              background: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+
   .hero {
     height: 90vh;
     margin-top: 1.5rem;

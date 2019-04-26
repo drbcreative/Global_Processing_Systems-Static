@@ -46,24 +46,45 @@
       <!-- /topbar -->
 
       <!-- navbar -->
-      <div class="toggle">
-        <img src="img/logo@2x.png" alt="">
-        <i class="fas fa-bars" id="nav-toggle"></i>
-      </div>
-      <div class="nav-container">
-        <img src="img/logo@2x.png" class="desktop-logo" alt="">
-        <div class="nav-menu">
-          <a href="#" class="menu-link">GETTING STARTED</a>
-          <a href="#" class="menu-link">PRODUCTS & SERVICES</a>
-          <a href="#" class="menu-link">MERCHANT SUPPORT</a>
-          <a href="#" class="menu-link">PARTNERS</a>
-          <a href="#" class="menu-link">LEARNING RESOURCES</a>
-          <a href="#" class="menu-link">FAQs</a>
-          <a href="#" class="menu-link d-lg-none">CONTACT US</a>
-          <a href="#" class="menu-link d-lg-none">OPEN AN ACCOUNT</a>
-          <a href="#" class="menu-link d-lg-none">AGENT LOGIN</a>
+      <nav class="navbar navbar-expand-xl navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo@2x.png" class="nav-logo" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+          aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ml-auto pr-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">GETTING STARTED</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                PRODUCTS &amp; SERVICES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">MERCHANT SUPPORT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PARTNERS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">LEARNING RESOURCES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQS</a>
+            </li>
+          </ul>
         </div>
-      </div>
+      </nav>
       <!-- /navbar -->
     </header>
 
@@ -296,7 +317,7 @@
     <script src="js/vendor/jquery.min.js"></script>
     <script src="js/vendor/bootstrap.bundle.min.js"></script>
     <script src="js/vendor/db-animate.min.js"></script>
-    <script src="js/app.min.js"></script>
+    <!-- <script src="js/app.min.js"></script> -->
     <!-- <script src="slick/slick.min.js"></script>
     <script src="js/slider-init.min.js"></script> -->
   </body>
