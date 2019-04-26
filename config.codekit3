@@ -63,6 +63,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/Global_Processing-Static-Final.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Global_Processing-Static-Final.zip",
+		"oF": 0
+		},
 	"/img/affiliate-bg.jpg": {
 		"ft": 16384,
 		"iS": 7701,
@@ -146,6 +154,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/biscapital-bg@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/body-bg.jpg": {
+		"ft": 16384,
+		"iS": 25368,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/body-bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/body-bg@2x.jpg": {
+		"ft": 16384,
+		"iS": 110896,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/body-bg@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

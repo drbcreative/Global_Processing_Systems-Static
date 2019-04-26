@@ -1,3 +1,8 @@
+body,
+html {
+  background: url("../img/body-bg@2x.jpg") center / cover;
+  background-attachment: fixed;
+}
 .containerish {
   width: 100%;
   max-width: 1200px;
@@ -7,7 +12,7 @@
 }
 /* HERO ********************************************************* */
 .hero {
-  background: url("../../img/hero@2x.jpg") center / cover;
+  background: url("../img/hero@2x.jpg") center / cover;
   min-height: 75vh;
   padding: 40px 20px;
   display: flex;
@@ -31,15 +36,13 @@
 }
 /* ACCOUNT ****************************************************** */
 .account {
-  background: #fff;
   padding: 5% 0;
 
   .containerish {
     max-width: 95% !important;
     padding: 40px 20px;
     min-height: 75vh;
-    background: url("../../img/applyforanaccount-img@2x.jpg") center left /
-      cover;
+    background: url("../img/applyforanaccount-img@2x.jpg") center left / cover;
     display: grid;
     align-items: center;
   }
@@ -50,12 +53,12 @@
     display: grid;
 
     .section-info {
-      background: url("../../img/affiliate-bg@2x.jpg") center / cover;
+      background: url("../img/affiliate-bg@2x.jpg") center / cover;
       padding: 40px 20px;
     }
 
     .section-img {
-      background: url("../../img/affiliate-img@2x.jpg") center / cover;
+      background: url("../img/affiliate-img@2x.jpg") center / cover;
       height: 500px;
     }
   }
@@ -66,12 +69,12 @@
     display: grid;
 
     .section-info {
-      // background: url("../../img/affiliate-bg@2x.jpg") center / cover;
+      // background: url("../img/affiliate-bg@2x.jpg") center / cover;
       padding: 40px 20px;
     }
 
     .section-img {
-      background: url("../../img/ccterminals-img@2x.jpg") center / cover;
+      background: url("../img/ccterminals-img@2x.jpg") center / cover;
       height: 500px;
     }
   }
@@ -82,12 +85,12 @@
     display: grid;
 
     .section-info {
-      background: url("../../img/biscapital-bg@2x.jpg") center / cover;
+      background: url("../img/biscapital-bg@2x.jpg") center / cover;
       padding: 40px 20px;
     }
 
     .section-img {
-      background: url("../../img/buscapital-img@2x.jpg") center / cover;
+      background: url("../img/buscapital-img@2x.jpg") center / cover;
       height: 500px;
     }
   }
